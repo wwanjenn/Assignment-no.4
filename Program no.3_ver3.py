@@ -13,6 +13,8 @@ def formulaCalculate(moneyF,appleF,):
     totalChangecalculate = moneyF % appleF
     return maxAcalculate, totalChangecalculate
 
+def display(maxD,changeD):
+    print(f' You can buy {maxD} apples and your change is {changeD} pesos.')
 # Steps
 #1 Input amount of money and price of apple
 money, price = priceTotal()
