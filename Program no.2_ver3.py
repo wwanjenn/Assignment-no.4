@@ -15,7 +15,6 @@ def calculateFormula(applesB,orangesB):
 def display(apples_, oranges_,totalPrice_):
     print(f'The total amount for {apples_} apples and {oranges_} oranges is {totalPrice_}.')
 
-
 # Steps
 # Ask how many apples and oranges you want to buy?
 apples, oranges = getAmountAppleOrange()
