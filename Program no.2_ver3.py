@@ -8,7 +8,9 @@ def getAmountAppleOrange():
     oranges_ = int(input("How many oranges do you want to buy?: "))
     return apples_, oranges_
 
-
+def calculateFormula(apples_,oranges_):
+    apples_ * 20 + oranges_ * 25
+    return
     
 # Steps
 # Ask how many apples and oranges you want to buy?
