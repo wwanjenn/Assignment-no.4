@@ -9,12 +9,14 @@ def priceTotal():
     return money_, priceA
 
 def formulaCalculate(moneyF,appleF,):
-    maxA = moneyF // appleF 
-    changeM = moneyF % appleF
-    return maxA, changeM
+    maxAcalculate = moneyF // appleF 
+    totalChangecalculate = moneyF % appleF
+    return maxAcalculate, totalChangecalculate
+
 # Steps
 #1 Input amount of money and price of apple
-
+money, price = priceTotal()
 #3 Formula for Total amount of apples and Change
-
+maxApples, totalChange = formulaCalculate(money,price)
 #5 Display
+display(maxApples,totalChange)
