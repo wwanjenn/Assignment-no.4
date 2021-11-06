@@ -6,10 +6,13 @@
 def getAmountAppleOrange():
     apples_ = int(input("How many apple do you want to buy?: "))
     oranges_ = int(input("How many oranges do you want to buy?: "))
+    return apples_, oranges_
 
+
+    
 # Steps
 # Ask how many apples and oranges you want to buy?
-
+apples, oranges = getAmountAppleOrange()
 #Calculate
 
 # Display
