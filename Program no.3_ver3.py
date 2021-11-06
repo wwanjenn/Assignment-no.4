@@ -6,10 +6,12 @@
 def priceTotal():
     money_ = int(input("How much money do you have?: "))
     priceA = int(input("How much is an apple?: "))
-    priceO = int(input("How much is an orange?: "))
-    return money_, priceA, priceO
+    return money_, priceA
 
-
+def formulaCalculate(moneyF,appleF,):
+    maxA = moneyF // appleF 
+    changeM = moneyF % appleF
+    return maxA, changeM
 # Steps
 #1 Input amount of money and price of apple
 
